@@ -95,16 +95,10 @@
 
 /* Sliding Page - end */
 /*tranding store grid anand*/
-.tradingitems{
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-}
-.tradingitems>div{
-  margin-bottom: 30px;
-  cursor: pointer;
-}
+
 
 .tradingitems{
+  margin-left: 20px;
   display: grid;
   grid-template-columns: auto auto auto auto;
 }

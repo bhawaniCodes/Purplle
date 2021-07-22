@@ -195,6 +195,25 @@ color: rgb(128, 140, 147);
 }
 
 /* Sliding Page - end */
+/*tranding store grid anand*/
+.tradingitems{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.tradingitems>div{
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.tradingitems{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.tradingitems>div{
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+/*anand tranding store*/
 
 /* ------------------------------------------------------ */
 

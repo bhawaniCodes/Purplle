@@ -1,0 +1,357 @@
+#container{
+    width: 88%;
+    border: 5px solid orange;
+    margin: auto;
+    /* height: 2000px; */
+}
+/*----------NEW LAUNCHES START-------*/
+    #parent_new_launches {
+        /* border: 1px solid red; */
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .newlaunchbutton {
+        position: absolute;
+        top: 38%;
+        font-size: 40px;
+        font-weight: bold;
+        color: grey;
+        cursor: pointer;
+        left: 2%;
+        z-index: 1;
+    }
+
+    .newlaunchbutton:nth-of-type(2) {
+        left: 97%;
+        text-align: right;
+    }
+
+    .newlaunch_section {
+        /* width: 100%; */
+        display: flex;
+        justify-content: left;
+        overflow-x: auto;
+    }
+
+    .newlaunch_section::-webkit-scrollbar {
+        visibility: hidden;
+    }
+
+    .new_launch_img_div {
+        position: relative;
+        margin: 0px 20px;
+        transition: 0.8s;
+    }
+
+    .new_launch_img_product {
+        width: 250px;
+        height: 320px;
+    }
+
+    .newlaunches {
+        position: inherit;
+        margin-left: 3%;
+    }
+    /*--------NEW LAUNCH END-------*/
+
+    /*-------GOOD VIBES START------*/
+
+    #goodvibes{
+        margin-top: 20px;
+    }
+        #parent_goodvibes {
+            /* border: 1px solid red; */
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .goodvibesbutton {
+            position: absolute;
+            top: 38%;
+            font-size: 40px;
+            font-weight: bold;
+            color: grey;
+            cursor: pointer;
+            left: 2%;
+            z-index: 1;
+        }
+
+        .goodvibesbutton:nth-of-type(2) {
+            left: 97%;
+            text-align: right;
+        }
+
+        .goodvibes_section {
+            /* width: 100%; */
+            display: flex;
+            justify-content: left;
+            overflow-x: auto;
+        }
+
+        .goodvibes_section::-webkit-scrollbar {
+            visibility: hidden;
+        }
+
+        .goodvibes_img_div {
+            position: relative;
+            margin: 0px 20px;
+            transition: 0.8s;
+        }
+
+        .goodvibes_img_product {
+            width: 250px;
+            height: 320px;
+        }
+
+        /*--------GOOD VIBES END-------*/
+
+        /*--------PURPLLE PICKS START-------*/
+    #parent_purplle_picks {
+        /* border: 1px solid red; */
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .purpllepicksbutton {
+        position: absolute;
+        top: 38%;
+        font-size: 40px;
+        font-weight: bold;
+        color: grey;
+        cursor: pointer;
+        left: 2%;
+        z-index: 1;
+    }
+
+    .purpllepicksbutton:nth-of-type(2) {
+        left: 97%;
+        text-align: right;
+    }
+
+    .purpllepicks_section {
+        /* width: 100%; */
+        display: flex;
+        justify-content: left;
+        overflow-x: auto;
+    }
+
+    .purpllepicks_section::-webkit-scrollbar {
+        visibility: hidden;
+    }
+
+    .purpllepicks_img_div {
+        position: relative;
+        margin: 0px 20px;
+        transition: 0.8s;
+    }
+
+    .purpllepicks_img_product {
+        width: 250px;
+        height: 320px;
+    }
+
+    .purpllepicks {
+        position: inherit;
+        margin-left: 3%;
+    }
+
+        /*--------PURPLLE PICKS END-------*/
+
+        /*----------TOP BRANDS FOR YOU START------*/
+
+    #parent_top_brands {
+      /* border: 1px solid red; */
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .topbrandsbutton {
+      position: absolute;
+      top: 38%;
+      font-size: 40px;
+      font-weight: bold;
+      color: grey;
+      cursor: pointer;
+      left: 2%;
+      z-index: 1;
+    }
+
+    .topbrandsbutton:nth-of-type(2) {
+      left: 97%;
+      text-align: right;
+    }
+
+    .topbrands_section {
+      /* width: 100%; */
+      display: flex;
+      justify-content: left;
+      overflow-x: auto;
+    }
+
+    .topbrands_section::-webkit-scrollbar {
+      visibility: hidden;
+    }
+
+    .topbrands_img_div {
+      position: relative;
+      margin: 0px 20px;
+      transition: 0.8s;
+    }
+
+    .topbrands_img_product {
+      width: 250px;
+      height: 320px;
+    }
+    .top_brands_heading {
+      width: 100%;
+      font-family: sans-serif;
+      margin: 5px 20px;
+      letter-spacing: 0.5;
+      font-weight: 600;
+    }
+
+        /*----------TOP BRANDS FOR YOU END------*/
+
+        /*------BRAND STORES START-------*/
+
+        #parent_brand_stores {
+            /* border: 1px solid red; */
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .brandstoresbutton {
+            position: absolute;
+            top: 38%;
+            font-size: 40px;
+            font-weight: bold;
+            color: grey;
+            cursor: pointer;
+            left: 2%;
+            z-index: 1;
+        }
+
+        .brandstoresbutton:nth-of-type(2) {
+            left: 97%;
+            text-align: right;
+        }
+
+        .brandstores_section {
+            /* width: 100%; */
+            display: flex;
+            justify-content: left;
+            overflow-x: auto;
+        }
+
+        .brandstores_section::-webkit-scrollbar {
+            visibility: hidden;
+        }
+
+        .brandstores_img_div {
+            position: relative;
+            margin: 0px 20px;
+            transition: 0.8s;
+        }
+
+        .brandstores_img_product {
+            width: 250px;
+            height: 350px;
+        }
+
+        .brandstores {
+            position: inherit;
+            margin-left: 3%;
+        }
+
+        /*------BRAND STORES END-------*/
+
+        /*--------VALUE SETS START----*/
+
+        .valuesetlogo {
+            align-items: center;
+        }
+
+        #boxes {
+            width: 100%;
+            margin-left: 0%;
+            height: 250px;
+        }
+
+        .innerboxPayment {
+            width: 80%;
+            margin-left: 20%;
+        }
+
+        .innerboxHelp {
+            width: 80%;
+            margin-right: 20%;
+        }
+
+        .box {
+            float: left;
+            display: block;
+            text-align: center;
+            padding-top: 20px;
+            height: 240px;
+            /* width: 33.2%; */
+            border-top: 1px solid rgb(168, 168, 168);
+            border-bottom: 1px solid rgb(168, 168, 168);
+        }
+
+        #beautybox {
+            width: 28%;
+            border-left: 1px solid rgb(189, 189, 189);
+            border-right: 1px solid rgb(189, 189, 189);
+        }
+
+        #paymentbox,
+        #helpbox {
+            width: 35.9%;
+        }
+
+        #boxes :hover {
+            opacity: 1;
+        }
+
+        .span {
+            font-size: 24px;
+            letter-spacing: 0.5;
+            padding-bottom: 15px;
+            line-height: 30px;
+            font-weight: 400;
+
+        }
+
+        .span,
+        .value_para {
+            opacity: 0.6;
+        }
+
+        #paymentspan,
+        #paymentspan+.value_para {
+            opacity: 0.9;
+        }
+
+        .value_para {
+            font-size: 12px;
+            line-height: 22px;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            letter-spacing: 1;
+
+        }
+
+        .boximg {
+            padding-bottom: 25px;
+            visibility: visible;
+            text-align: center;
+            box-sizing: inherit;
+        }
+
+        /*--------VALUE SETS END----*/

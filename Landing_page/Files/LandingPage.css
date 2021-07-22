@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 .container {
-  width: 88%;
+  width: 96%;
   margin: auto;
 }
 /* ------------------------------------------------------ */
@@ -141,9 +141,9 @@ color: rgb(128, 140, 147);
 
 /* Sliding Page - start - bhanu */
 .sliderMain {
-  width: 100%;
-  box-sizing: inherit;
-  margin: auto;
+   width: 100%; 
+   box-sizing: inherit; 
+   margin: auto; 
   position: relative;
 }
 .sliderMain image {

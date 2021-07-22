@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 88%;
+  margin: auto;
+}
+/* ------------------------------------------------------ */
+
+/* navigation bar styling */
+.navUp {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.navUp a {
+  text-decoration: none;
+  color: rgb(128, 140, 147);
+  padding: 10px;
+}
+.navUpLinks {
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 550;
+  font-size: small;
+}
+/* #mobileIcon {
+  font-size: large;
+  color: rgb(106, 79, 183);
+} */
+.input-container {
+  border-bottom: 2px solid rgb(230, 76, 129);
+  width: 90%;
+  margin-left: 10px;
+  display: flex;
+  margin-top: 35px;
+}
+.input-field {
+  /* margin-top: 25px; */
+  width: 60%;
+  height: 30px;
+  font-size: small;
+  border: none;
+}
+#search-icon {
+  font-size: large;
+  color: rgb(128, 140, 147);
+  margin-left: 55px;
+}
+#search-icon:hover{
+  cursor:pointer;
+}
+.navMiddleContainer{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+margin: auto;
+justify-content: center;
+margin-bottom: 10px;
+}
+#tryElite{
+  width: 50px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.spaceBetweenNav{
+  width: 20%;
+}
+.navMid > img{
+  height: 60.5938px;
+  width: 110px;
+}
+.navMid > img:hover{
+  cursor: pointer;
+}
+.navRight{
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.icons{
+margin-top: 100px;
+margin: 20px;
+font-size: 40px;
+color: rgb(128, 140, 147);
+}
+.icons:hover{
+  cursor: pointer;
+}
+.navBottom_links li{
+  display: inline;
+  margin:0px 30px 20px 0px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.navBottom_links a{
+  text-decoration: none;
+  color: black;
+}
+.navBottom_links a:hover{
+  border-bottom: solid 3px rgb(234,75,121);  
+  transform: scaleX(1);  
+  transition:  250ms ease-in-out;
+}
+.navBottom_links{
+  display: flex;
+  justify-content: center;
+}
+
+/* Scroll up Functionality Start - Bhanu*/
+#btnScrollToTop {
+  bottom: 150px;
+  right: 15px;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: #6c7a82;
+  z-index: 10;
+}
+
+#btnScrollToTop:active {
+  background-color: #3c4144;
+}
+
+/* Scroll up Functionality End*/
+
+/* ------------------------------------------------------ */
+
+/* Sliding Page - start - bhanu */
+.sliderMain {
+  width: 100%;
+  box-sizing: inherit;
+  margin: auto;
+  position: relative;
+}
+.sliderMain image {
+  width: 100%;
+}
+.smooth {
+  transition: 900ms cubic-bezier(0.48, 0.15, 0.18, 1);
+}
+
+.slide {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.left {
+  left: 0px;
+}
+
+.right {
+  right: 0px;
+}
+
+.slide span {
+  font-size: 35px;
+  color: #566770;
+  text-shadow: -2px 0px 0px #fff;
+}
+
+.btm-sliders {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  display: flex;
+}
+
+.btm-sliders span {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #000;
+  opacity: 0.2;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+#firstBullet {
+  background-color: purple;
+  opacity: 1;
+}
+
+/* Sliding Page - end */
+/*tranding store grid anand*/
+
+
+.tradingitems{
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.tradingitems>div{
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+/*anand tranding store*/
+
+/* ------------------------------------------------------ */
+
+/* Video & link container start - Ranjan */
+
+.videoContainer {
+  width: 100%;
+  background-color: rgb(242, 243, 243);
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "PT Serif", serif;
+  color: #4b4b4b;
+}
+.videoContainer h2 {
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+.spotLight {
+  width: 45%;
+  /* display: flex;
+  justify-content: center; */
+  margin: 15px;
+  margin-left: 60px;
+}
+.spotLight > iframe {
+  width: 80%;
+  height: 280px;
+}
+.shopOnTheGo {
+  width: 45%;
+  /* display: flex;
+  justify-content: center; */
+  margin: 15px;
+}
+.shopOnTheGo > img {
+  height: 280px;
+  width: 80%;
+}
+.pageLinks {
+  background-color: rgb(242, 243, 243);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.linkContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  font-family: "PT Serif", serif;
+}
+.leftLinkContainer {
+  width: 15%;
+  display: flex;
+  justify-content: right;
+}
+.rightLinkContainer {
+  width: 85%;
+  margin-left: -35px;
+}
+.leftLinkContainer > a {
+  margin-left: 60px;
+  text-decoration: none;
+  color: rgb(128, 140, 147);
+  font-weight: 800;
+  font-size: small;
+  font-family: "PT Serif", serif;
+}
+.rightLinkContainer > a {
+  text-decoration: none;
+  color: rgb(137, 148, 156);
+  font-size: small;
+  font-family: "PT Serif", serif;
+}
+.linkContainer a:hover {
+  color: red;
+}
+
+
+/* Video & link container end */
+
+/* ------------------------------------------------------ */
+
+/* Footer Of the Page Start - Bhanu */
+.footer {
+  margin: auto;
+  width: 95%;
+  min-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px black;
+  color: #6c7a82;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
+  margin-left: 40px;
+}
+
+.eachFooter h4 {
+  font-size: 14px;
+  margin: 18.62px 0px;
+}
+.eachFooter p {
+  font-size: 11px;
+  margin: 11px 0px;
+}
+
+#footerHoriLine {
+  width: 88%;
+  padding-left: 10px;
+  margin: 50px auto;
+  min-width: 1000px;
+  opacity: 0.3;
+  background-color: #121213;
+}
+/* Footer Of the Page End */

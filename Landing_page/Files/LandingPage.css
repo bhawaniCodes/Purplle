@@ -12,6 +12,107 @@
 }
 /* ------------------------------------------------------ */
 
+/* navigation bar styling */
+.navUp {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.navUp a {
+  text-decoration: none;
+  color: rgb(128, 140, 147);
+  padding: 10px;
+}
+.navUpLinks {
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 550;
+  font-size: small;
+}
+/* #mobileIcon {
+  font-size: large;
+  color: rgb(106, 79, 183);
+} */
+.input-container {
+  border-bottom: 2px solid rgb(230, 76, 129);
+  width: 90%;
+  margin-left: 10px;
+  display: flex;
+  margin-top: 35px;
+}
+.input-field {
+  /* margin-top: 25px; */
+  width: 60%;
+  height: 30px;
+  font-size: small;
+  border: none;
+}
+#search-icon {
+  font-size: large;
+  color: rgb(128, 140, 147);
+  margin-left: 55px;
+}
+#search-icon:hover{
+  cursor:pointer;
+}
+.navMiddleContainer{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+margin: auto;
+justify-content: center;
+margin-bottom: 10px;
+}
+#tryElite{
+  width: 50px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.spaceBetweenNav{
+  width: 20%;
+}
+.navMid > img{
+  height: 60.5938px;
+  width: 110px;
+}
+.navMid > img:hover{
+  cursor: pointer;
+}
+.navRight{
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.icons{
+margin-top: 100px;
+margin: 20px;
+font-size: 40px;
+color: rgb(128, 140, 147);
+}
+.icons:hover{
+  cursor: pointer;
+}
+.navBottom_links li{
+  display: inline;
+  margin:0px 30px 20px 0px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.navBottom_links a{
+  text-decoration: none;
+  color: black;
+}
+.navBottom_links a:hover{
+  border-bottom: solid 3px rgb(234,75,121);  
+  transform: scaleX(1);  
+  transition:  250ms ease-in-out;
+}
+.navBottom_links{
+  display: flex;
+  justify-content: center;
+}
+
 /* Scroll up Functionality Start - Bhanu*/
 #btnScrollToTop {
   bottom: 150px;
@@ -172,41 +273,7 @@
 .linkContainer a:hover {
   color: red;
 }
-.navUp {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-}
-.navUp a {
-  text-decoration: none;
-  color: rgb(128, 140, 147);
-  padding: 10px;
-}
-.navUpLinks {
-  padding: 10px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 550;
-  font-size: small;
-}
-#mobileIcon {
-  font-size: large;
-  color: rgb(106, 79, 183);
-}
-.input-container {
-  border-bottom: 2px solid rgb(230, 76, 129);
-  width: 23%;
-  margin-left: 10px;
-}
-.input-field {
-  width: 90%;
-  height: 30px;
-  font-size: small;
-  border: none;
-}
-#search-icon {
-  font-size: large;
-  color: rgb(128, 140, 147);
-}
+
 
 /* Video & link container end */
 

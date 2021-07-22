@@ -1,4 +1,19 @@
-  
+// navigation funcitonalities]
+const wishList = document.getElementById("wishList")
+const signUP = document.getElementById("signUp")
+const basket = document.getElementById("basket")
+wishList.addEventListener("click",function(){
+    window.location.href="wishlist.html"
+})
+basket.addEventListener("click",function(){
+    window.location.href="basket.html"
+})
+const navMid = document.getElementById("homePageNavigation")
+navMid.addEventListener("click",function(){
+    window.location.href="LandingPage.html"
+})
+
+
 
 
 

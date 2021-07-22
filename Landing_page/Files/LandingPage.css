@@ -27,49 +27,77 @@
   cursor: pointer;
   border: none;
   background-color: #6c7a82;
+  z-index: 10;
 }
 
 #btnScrollToTop:active {
   background-color: #3c4144;
 }
+
 /* Scroll up Functionality End*/
 
 /* ------------------------------------------------------ */
 
-/* Footer Of the Page Start - Bhanu */
-.footer {
+/* Sliding Page - start - bhanu */
+.sliderMain {
+  width: 100%;
+  box-sizing: inherit;
   margin: auto;
-  width: 95%;
-  min-width: 1000px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  border: 1px black;
-  color: #6c7a82;
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 0.5px;
-  margin-left: 40px;
+  position: relative;
+}
+.sliderMain image {
+  width: 100%;
+}
+.smooth {
+  transition: 900ms cubic-bezier(0.48, 0.15, 0.18, 1);
 }
 
-.eachFooter h4 {
-  font-size: 14px;
-  margin: 18.62px 0px;
+.slide {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
 }
-.eachFooter p {
-  font-size: 11px;
-  margin: 11px 0px;
+.left {
+  left: 0px;
 }
 
-#footerHoriLine {
-  width: 88%;
-  padding-left: 10px;
-  margin: 50px auto;
-  min-width: 1000px;
-  opacity: 0.3;
-  background-color: #121213;
+.right {
+  right: 0px;
 }
-/* Footer Of the Page End */
+
+.slide span {
+  font-size: 35px;
+  color: #566770;
+  text-shadow: -2px 0px 0px #fff;
+}
+
+.btm-sliders {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  display: flex;
+}
+
+.btm-sliders span {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #000;
+  opacity: 0.2;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+#firstBullet {
+  background-color: purple;
+  opacity: 1;
+}
+
+/* Sliding Page - end */
 
 /* ------------------------------------------------------ */
+
+/* Video & link container start - Ranjan */
 
 .videoContainer {
   width: 100%;
@@ -179,3 +207,40 @@
   font-size: large;
   color: rgb(128, 140, 147);
 }
+
+/* Video & link container end */
+
+/* ------------------------------------------------------ */
+
+/* Footer Of the Page Start - Bhanu */
+.footer {
+  margin: auto;
+  width: 95%;
+  min-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px black;
+  color: #6c7a82;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
+  margin-left: 40px;
+}
+
+.eachFooter h4 {
+  font-size: 14px;
+  margin: 18.62px 0px;
+}
+.eachFooter p {
+  font-size: 11px;
+  margin: 11px 0px;
+}
+
+#footerHoriLine {
+  width: 88%;
+  padding-left: 10px;
+  margin: 50px auto;
+  min-width: 1000px;
+  opacity: 0.3;
+  background-color: #121213;
+}
+/* Footer Of the Page End */

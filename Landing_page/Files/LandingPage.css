@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -8,4 +11,114 @@
   height: 500px;
   background-color: rgb(197, 178, 178);
   margin: auto;
+}
+.videoContainer{
+  width: 100%;
+  background-color:rgb(242, 243, 243);
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'PT Serif', serif;
+  color: #4b4b4b;
+ 
+}
+.videoContainer  h2{
+  margin-bottom:15px;
+  font-weight: 300;
+}
+.spotLight{
+  width: 45%;
+  /* display: flex;
+  justify-content: center; */
+  margin: 15px;
+ margin-left: 60px;
+}
+.spotLight > iframe{
+  width: 80%;
+  height: 280px;
+}
+.shopOnTheGo{
+  width: 45%;
+  /* display: flex;
+  justify-content: center; */
+  margin: 15px;
+}
+.shopOnTheGo > img{
+  height: 280px;
+  width: 80%;
+}
+.pageLinks{
+  background-color:rgb(242, 243, 243);
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+.linkContainer{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+ margin: 10px;
+ font-family: 'PT Serif', serif;
+}
+.leftLinkContainer{
+  width: 15%;
+  display: flex;
+  justify-content: right;
+  
+}
+.rightLinkContainer{
+  width: 85%;
+  margin-left: -35px;
+}
+.leftLinkContainer > a{
+  margin-left: 60px;
+  text-decoration: none;
+  color: rgb(128,140,147);
+  font-weight: 800;
+  font-size: small;
+  font-family: 'PT Serif', serif;
+}
+.rightLinkContainer > a{
+  text-decoration: none;
+  color: rgb(137,148,156);
+  font-size: small;
+  font-family: 'PT Serif', serif;
+}
+.linkContainer a:hover{
+  color: red;
+}
+.navUp{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.navUp  a{
+ text-decoration:none;
+ color: rgb(128,140,147);
+ padding: 10px;
+}
+.navUpLinks{
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 550;
+  font-size: small;
+}
+#mobileIcon{
+  font-size:large;
+  color: rgb(106,79,183);
+}
+.input-container{
+  border-bottom: 2px solid rgb(230,76,129);
+  width: 23%;
+  margin-left: 10px;
+}
+.input-field{
+ width: 90%;
+ height:30px;
+ font-size: small;
+ border: none;
+}
+#search-icon{
+  font-size: large;
+  color: rgb(128,140,147);
 }

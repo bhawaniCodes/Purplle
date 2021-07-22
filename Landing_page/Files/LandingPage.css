@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 * {
   margin: 0;
@@ -8,117 +8,174 @@
 }
 .container {
   width: 88%;
-  height: 500px;
-  background-color: rgb(197, 178, 178);
   margin: auto;
 }
-.videoContainer{
+/* ------------------------------------------------------ */
+
+/* Scroll up Functionality Start - Bhanu*/
+#btnScrollToTop {
+  bottom: 150px;
+  right: 15px;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: #6c7a82;
+}
+
+#btnScrollToTop:active {
+  background-color: #3c4144;
+}
+/* Scroll up Functionality End*/
+
+/* ------------------------------------------------------ */
+
+/* Footer Of the Page Start - Bhanu */
+.footer {
+  margin: auto;
+  width: 95%;
+  min-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px black;
+  color: #6c7a82;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
+  margin-left: 40px;
+}
+
+.eachFooter h4 {
+  font-size: 14px;
+  margin: 18.62px 0px;
+}
+.eachFooter p {
+  font-size: 11px;
+  margin: 11px 0px;
+}
+
+#footerHoriLine {
+  width: 88%;
+  padding-left: 10px;
+  margin: 50px auto;
+  min-width: 1000px;
+  opacity: 0.3;
+  background-color: #121213;
+}
+/* Footer Of the Page End */
+
+/* ------------------------------------------------------ */
+
+.videoContainer {
   width: 100%;
-  background-color:rgb(242, 243, 243);
+  background-color: rgb(242, 243, 243);
   margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   color: #4b4b4b;
- 
 }
-.videoContainer  h2{
-  margin-bottom:15px;
+.videoContainer h2 {
+  margin-bottom: 15px;
   font-weight: 300;
 }
-.spotLight{
+.spotLight {
   width: 45%;
   /* display: flex;
   justify-content: center; */
   margin: 15px;
- margin-left: 60px;
+  margin-left: 60px;
 }
-.spotLight > iframe{
+.spotLight > iframe {
   width: 80%;
   height: 280px;
 }
-.shopOnTheGo{
+.shopOnTheGo {
   width: 45%;
   /* display: flex;
   justify-content: center; */
   margin: 15px;
 }
-.shopOnTheGo > img{
+.shopOnTheGo > img {
   height: 280px;
   width: 80%;
 }
-.pageLinks{
-  background-color:rgb(242, 243, 243);
- padding-top: 50px;
- padding-bottom: 50px;
+.pageLinks {
+  background-color: rgb(242, 243, 243);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-.linkContainer{
+.linkContainer {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
- margin: 10px;
- font-family: 'PT Serif', serif;
+  margin: 10px;
+  font-family: "PT Serif", serif;
 }
-.leftLinkContainer{
+.leftLinkContainer {
   width: 15%;
   display: flex;
   justify-content: right;
-  
 }
-.rightLinkContainer{
+.rightLinkContainer {
   width: 85%;
   margin-left: -35px;
 }
-.leftLinkContainer > a{
+.leftLinkContainer > a {
   margin-left: 60px;
   text-decoration: none;
-  color: rgb(128,140,147);
+  color: rgb(128, 140, 147);
   font-weight: 800;
   font-size: small;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
 }
-.rightLinkContainer > a{
+.rightLinkContainer > a {
   text-decoration: none;
-  color: rgb(137,148,156);
+  color: rgb(137, 148, 156);
   font-size: small;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
 }
-.linkContainer a:hover{
+.linkContainer a:hover {
   color: red;
 }
-.navUp{
+.navUp {
   display: flex;
   justify-content: flex-end;
   width: 100%;
 }
-.navUp  a{
- text-decoration:none;
- color: rgb(128,140,147);
- padding: 10px;
-}
-.navUpLinks{
+.navUp a {
+  text-decoration: none;
+  color: rgb(128, 140, 147);
   padding: 10px;
-  font-family: 'Roboto', sans-serif;
+}
+.navUpLinks {
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
   font-weight: 550;
   font-size: small;
 }
-#mobileIcon{
-  font-size:large;
-  color: rgb(106,79,183);
+#mobileIcon {
+  font-size: large;
+  color: rgb(106, 79, 183);
 }
-.input-container{
-  border-bottom: 2px solid rgb(230,76,129);
+.input-container {
+  border-bottom: 2px solid rgb(230, 76, 129);
   width: 23%;
   margin-left: 10px;
 }
-.input-field{
- width: 90%;
- height:30px;
- font-size: small;
- border: none;
+.input-field {
+  width: 90%;
+  height: 30px;
+  font-size: small;
+  border: none;
 }
-#search-icon{
+#search-icon {
   font-size: large;
-  color: rgb(128,140,147);
+  color: rgb(128, 140, 147);
 }

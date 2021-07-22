@@ -5,7 +5,66 @@
 }
 .container {
   width: 88%;
-  height: 500px;
-  background-color: rgb(197, 178, 178);
   margin: auto;
 }
+
+/* ------------------------------------------------------ */
+
+/* Scroll up Functionality Start - Bhanu*/
+#btnScrollToTop {
+  bottom: 150px;
+  right: 15px;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: #6c7a82;
+}
+
+#btnScrollToTop:active {
+  background-color: #3c4144;
+}
+/* Scroll up Functionality End*/
+
+/* ------------------------------------------------------ */
+
+/* Footer Of the Page Start - Bhanu */
+.footer {
+  margin: auto;
+  width: 95%;
+  min-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px black;
+  color: #6c7a82;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
+  margin-left: 40px;
+}
+
+.eachFooter h4 {
+  font-size: 14px;
+  margin: 18.62px 0px;
+}
+.eachFooter p {
+  font-size: 11px;
+  margin: 11px 0px;
+}
+
+#footerHoriLine {
+  width: 88%;
+  padding-left: 10px;
+  margin: 50px auto;
+  min-width: 1000px;
+  opacity: 0.3;
+  background-color: #121213;
+}
+/* Footer Of the Page End */
+
+/* ------------------------------------------------------ */

@@ -1,3 +1,4 @@
+
 /*----------NEW LAUNCHES STRAT-------*/
 // navigation funcitonalities]
 const wishList = document.getElementById("wishList");

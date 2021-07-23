@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -85,6 +87,7 @@
 .icons:hover {
   cursor: pointer;
 }
+
 .navBottom_links li {
   display: inline;
   margin: 0px 30px 20px 0px;
@@ -106,7 +109,9 @@
 }
 
 /* Nav Bar css end */
-
+.gap{
+  height: 50px;
+}
 .container {
   width: 75%;
   margin: auto;
@@ -179,16 +184,142 @@
   opacity: 1;
 }
 
-/* Sliding Page - end */
+/* dropdownmenu */
+.dropdown{
+  /* margin: 50px; */
+  margin-right: 95px;
+  text-align: center;
+  border-left: 1px solid grey;
+  height: 50px;
+}
+.avBottom_links li {
+  display: inline;
+  margin: 0px 30px 20px 0px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.avBottom_links a {
+  text-decoration: none;
+  color: black;
+}
+.avBottom_links a:hover {
+  border-bottom: solid 3px rgb(234, 75, 121);
+  transform: scaleX(1);
+  transition: 250ms ease-in-out;
+}
+.avBottom_links {
+  display: flex;
+  justify-content: center;
+}
+.avBottom{
+  /* border: 1px solid grey; */
+  background-color: rgb(241, 241, 241);
+  width: 90%;
+  margin: auto;
+  border-radius: 15px;
+}
+.avBottom>ul{
+  margin-left: 50px;
+}
+.avBottom_links li{
+  font-family: 'Josefin Sans', sans-serif;
+  /* display: inline; */
+  /* margin:0px 30px 20px 0px; */
+  /* font-size: 16px;
+  font-weight: 600; */
+ 
+}
+.avBottom_links a{
+  text-decoration: none;
+  color: black;
+  
+}
+.avBottom_links a:hover{
+  border-bottom: solid 3px rgb(234,75,121);  
+  transform: scaleX(1);  
+  transition:  250ms ease-in-out;
+}
+.avBottom_links{
+  display: flex;
+  justify-content: center;
+}
+.dropLink{
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.dropdown > li{
+  margin-left: 55px;
+  margin-top: 15px;
+}
 
-/* -------------------------------------------------------------------- */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* width: 100%; */
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-top: 20px;
+}
+/* .shopCategorie{
+margin-left: -150px;
+} */
 
+.dropdown-content a {
+  width: 200px;
+  height: 30px;
+  color: black;
+  /* padding: 12px 16px; */
+  text-decoration: none;
+  display: block;
+  /* font-family: "Roboto", sans-serif; */
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1 ;
+  color:rgb(234,75,121) ;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  /* background-color: #3e8e41; */
+  border-bottom: solid 3px rgb(234,75,121);  
+transform: scaleX(1);  
+transition:  250ms ease-in-out;
+}
+
+.products-menu-dropDown-links li{
+/* display: inline; */
+/* margin:0px 30px 20px 0px; */
+font-size: 15px;
+font-weight: 600;
+width: 200px;
+}
+.products-menu-dropDown-links a{
+text-decoration: none;
+color: black;
+}
+.products-menu-dropDown-links a:hover{
+border-bottom: solid 3px rgb(234,75,121);  
+transform: scaleX(1);  
+transition:  250ms ease-in-out;
+}
+
+.gap{
+  height: 50px;
+}
+.gap2{
+  height: 50px;
+}
 /* AllProducts Start */
 
 .productHeading {
   text-align: center;
   font-size: 20px;
   letter-spacing: 4px;
+  /* margin-bottom: -100px; */
 }
 
 .productList {

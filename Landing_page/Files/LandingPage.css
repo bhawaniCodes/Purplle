@@ -114,8 +114,131 @@ color: rgb(128, 140, 147);
 }
 .bannerImages > img{
   width: 100%;
-  
 }
+
+/* dropdown */
+.dropbtn {
+  /* background-color: #4CAF50; */
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  /* width: 100%; */
+  list-style: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* width: 100%; */
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.shopCategorie{
+margin-left: -150px;
+}
+
+.brands{
+  margin-left: -300px;
+}
+.dropdown-content a {
+  width: 100%;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  /* font-family: "Roboto", sans-serif; */
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1 ;
+  color:rgb(234,75,121) ;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  /* background-color: #3e8e41; */
+  border-bottom: solid 3px rgb(234,75,121);  
+transform: scaleX(1);  
+transition:  250ms ease-in-out;
+}
+
+.products-menu-dropDown-links li{
+/* display: inline; */
+margin:0px 30px 20px 0px;
+font-size: 14px;
+font-weight: 600;
+width: 100px;
+}
+.products-menu-dropDown-links a{
+text-decoration: none;
+color: black;
+}
+.products-menu-dropDown-links a:hover{
+border-bottom: solid 3px rgb(234,75,121);  
+transform: scaleX(1);  
+transition:  250ms ease-in-out;
+}
+.products-menu-dropDown-links{
+display: flex;
+justify-content: center;
+}
+.brandsImages >ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.brandsImages img{
+  margin: 30px;
+}
+/* .dropLink{
+  position: relative; 
+  display: inline-block;
+  width: 100%;
+  list-style: none;
+}
+.makeup-content{
+  display: none;
+  position: absolute;
+  /* width: 100%; */
+  /* background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+} */
+/* .makeup-content a{
+  width: 100%;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.makeup-content a:hover {background-color: #f1f1f1}
+.dropLink:hover .makeup-content {
+  display: block;
+}
+.makeup-manu-dropDown-links li{
+  display: inline;
+margin:0px 30px 20px 0px;
+font-size: 12px;
+font-weight: 600;
+}
+.makeup-manu-dropDown-links a{
+  text-decoration: none;
+   color: black;
+}
+.makeup-manu-dropDown-links a:hover{
+  border-bottom: solid 3px rgb(234,75,121);  
+  transform: scaleX(1);  
+  transition:  250ms ease-in-out;   
+} */ 
+/* dropdownend */
 /* Scroll up Functionality Start - Bhanu*/
 #btnScrollToTop {
   bottom: 150px;
@@ -148,7 +271,7 @@ color: rgb(128, 140, 147);
   /* height: 500px; */
   box-sizing: inherit;
   margin: auto;
-  position: relative;
+  /* position: relative; */
   box-shadow: 0px 0px 8px #28373b9f;
 }
 .sliderMain img {

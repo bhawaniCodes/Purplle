@@ -1,25 +1,5 @@
 let productListDiv = document.getElementById("productList");
 
-//-------------------------------------------------------------------------
-
-// Nav Bar Wishlist start 
-
-const wishList = document.getElementById("wishList");
-const signUP = document.getElementById("signUp");
-const basket = document.getElementById("basket");
-wishList.addEventListener("click", function () {
-  window.location.href = "wishlist.html";
-});
-basket.addEventListener("click", function () {
-  window.location.href = "basket.html";
-});
-const navMid = document.getElementById("homePageNavigation");
-navMid.addEventListener("click", function () {
-  window.location.href = "LandingPage.html";
-});
-
-// Nav Bar Wishlist End
-
 // -------------------------------------------------------------------------
 
   // Sliding part start - for 5 images1 - bhanu
@@ -283,11 +263,8 @@ function createElement(el) {
     console.log(img);
 
     let addToCart = document.createElement("button");
-  addToCart.innerHTML = "ADD TO CART";
-  addToCart.setAttribute("id","addToCart")
-    addToCart.addEventListener("click", function () {
-      add_To_Cart(el);
-    });
+    addToCart.innerHTML = "ADD TO CART";
+    addToCart.setAttribute('id', 'addToCart');
 
     let p_name = document.createElement('p');
     p_name.setAttribute("id","proName")
@@ -315,26 +292,6 @@ fatchProducts(JSON.parse(localStorage.getItem('productlist')));
 /* AllProducts End */
 
 /* -------------------------------------------------------------------- */
-
-// To add to cart functionality start
-
-function add_To_Cart(obj) {
-  let arr;
-  arr = localStorage.getItem("cart");
-  if (arr == null) {
-    arr = [];
-  } else {
-    arr = JSON.parse(localStorage.getItem("cart"));
-  }
-  arr.push(obj);
-  localStorage.setItem("cart", JSON.stringify(arr));
-}
-
-function showCart() {
-  window.location.href = "basket.html";
-}
-
-// To add to cart functionality end
 
  // -------------------------------------------------------------------------
 

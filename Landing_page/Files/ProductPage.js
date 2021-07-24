@@ -471,3 +471,164 @@ function showCart() {
   // Sliding part image2 end
 
   // -------------------------------------------------------------------------
+  function gotobasket(){
+    window.location.href="basket.html"
+  }
+
+  let productList = JSON.parse(localStorage.getItem("productlist"))
+
+function sortHIghTOLow(){
+      productList= productList.sort(function(a,b){
+     return b.price- a.price
+ })
+ fatchProducts(productList)
+}
+
+function sortLowTOHigh(){
+  productList = productList.sort(function(a,b){
+    return a.price - b.price
+  })
+  fatchProducts(productList)
+}
+
+function priceRange(){
+   let pr = productList.filter(function(el){
+      if(el.price >= 100 && el.price <= 200){
+        // fatchProducts(el)
+        return el
+      //  console.log(el.price)
+      }
+    })
+    productListDiv.innerHTML = null;
+    pr.forEach(function (el) {
+        createElement(el);
+    })
+    fatchProducts(pr)
+}
+function priceRange1(){
+   let pr = productList.filter(function(el){
+      if(el.price >= 200 && el.price <= 300){
+        // fatchProducts(el)
+        return el
+      //  console.log(el.price)
+      }
+    })
+    console.log("messae",pr)
+    productListDiv.innerHTML = null;
+    pr.forEach(function (el) {
+        createElement(el);
+    })
+    fatchProducts(pr)
+}
+function priceRange2(){
+   let pr = productList.filter(function(el){
+      if(el.price >= 300){
+        // fatchProducts(el)
+        return el
+      //  console.log(el.price)
+      }
+    })
+    productListDiv.innerHTML = null;
+    pr.forEach(function (el) {
+        createElement(el);
+    })
+    fatchProducts(pr)
+}
+// fatchProducts(priceRange(productList))
+
+function discountRange(){
+  let pr = productList.filter(function(el){
+      if(el.discount >= 10 && el.discount <= 20){
+        // fatchProducts(el)
+        return el
+      //  console.log(el.price)
+      }
+    })
+    productListDiv.innerHTML = null;
+    pr.forEach(function (el) {
+        createElement(el);
+    })
+    fatchProducts(pr)
+}
+function discountRange1(){
+  let pr = productList.filter(function(el){
+      if(el.discount >= 20 && el.discount <= 30){
+        // fatchProducts(el)
+        return el
+      //  console.log(el.price)
+      }
+    })
+    productListDiv.innerHTML = null;
+    pr.forEach(function (el) {
+        createElement(el);
+    })
+    fatchProducts(pr)
+}
+
+function brandDisplay1(){
+  let pr = productList.filter(function(el){
+    if(el.brand === "Lakme"){
+      console.log(el)
+      return el
+    }
+  })
+  productListDiv.innerHTML = null;
+  pr.forEach(function(el){
+    createElement(el);
+  })
+  fatchProducts(pr)
+}
+function brandDisplay2(){
+
+  let pr = productList.filter(function(el){
+    if(el.brand === "Wow"){
+      console.log(el)
+      return el
+    }
+  })
+  productListDiv.innerHTML = null;
+  pr.forEach(function(el){
+    createElement(el);
+  })
+  fatchProducts(pr)
+}
+function brandDisplay3(){
+
+  let pr = productList.filter(function(el){
+    if(el.brand === "Mamaearth"){
+      console.log(el)
+      return el
+    }
+  })
+  productListDiv.innerHTML = null;
+  pr.forEach(function(el){
+    createElement(el);
+  })
+  fatchProducts(pr)
+}
+function brandDisplay4(){
+
+  let pr = productList.filter(function(el){
+    if(el.brand === "GoodVibes"){
+      console.log(el)
+      return el
+    }
+  })
+  productListDiv.innerHTML = null;
+  pr.forEach(function(el){
+    createElement(el);
+  })
+  fatchProducts(pr)
+}
+// function brandDisplay1(){
+//   let pr = productList.filter(function(el){
+//     if(el.brand == "Lakme"){
+//       return el
+//     }
+//   })
+//   productListDiv.innerHTML = null;
+//   pr.forEach(function(el){
+//     createElement(el);
+//   })
+//   fatchProducts(pr)
+// }

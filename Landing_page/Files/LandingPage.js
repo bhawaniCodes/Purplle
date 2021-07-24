@@ -15,7 +15,9 @@ navMid.addEventListener("click", function () {
   window.location.href = "LandingPage.html";
 });
 
-
+function goToProductPage(){
+  window.location.href="ProductPage.html"
+}
 // ------------------------------------------------------------------
 
 

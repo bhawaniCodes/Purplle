@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 .container {
-  width: 96%;
+  width: 94%;
   margin: auto;
 }
 /* ------------------------------------------------------ */
@@ -117,14 +117,6 @@ color: rgb(128, 140, 147);
 }
 
 /* dropdown */
-.dropbtn {
-  /* background-color: #4CAF50; */
-  /* color: black;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer; */
-}
 
 .dropdown {
   position: relative;
@@ -199,6 +191,24 @@ justify-content: center;
 .brandsImages img{
   margin: 30px;
 }
+.drop-down-link-container-of-products{
+  display: flex;
+  flex-wrap: wrap;
+}
+.drop-down-link-container-of-products-links{
+  margin: 0px 20px 20px 20px;
+}
+.drop-down-link-container-of-products-links p{
+  margin: 20px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.drop-down-link-container-of-products-links p:hover{
+  border-bottom: solid 3px rgb(234,75,121);  
+transform: scaleX(1);  
+transition:  250ms ease-in-out;
+}
+
 /* .dropLink{
   position: relative; 
   display: inline-block;

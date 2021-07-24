@@ -306,6 +306,10 @@ border-bottom: solid 3px rgb(234,75,121);
 transform: scaleX(1);  
 transition:  250ms ease-in-out;
 }
+.drop-down-link-container-of-products{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 .gap{
   height: 50px;
